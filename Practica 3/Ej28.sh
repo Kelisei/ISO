@@ -7,3 +7,23 @@ para los cuales el usuario que ejecuta el script tiene permiso de lectura y escr
 dichos valores en pantalla. En caso de encontrar subdirectorios, no deberán procesarse, y
 tampoco deberán ser tenidos en cuenta para la suma a informar.
 28
+
+if [ $# -ne 1 ]; then
+    exit 1
+fi
+
+if ! [ -e $1 -a -d $1 ]; then
+    echo "ERROR 4"
+    exit 4
+else
+    counter=0
+    for file in $(ls -l $1); do
+        if [ -f $1/$file ]; then
+            if [ -w $1/$file ] && [ -r $1/$file ]; then
+                counter=$((counter + 1))
+            fi
+        fi
+    done
+    echo "La cantidad de archivos con permiso de lectura y escritura $counter"
+fi
+exit 0
