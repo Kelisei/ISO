@@ -1,6 +1,7 @@
+#!/bin/bash
 if [ $# -ne 1 ] 
 then
-	echo "Error, no hay parametros"
+	echo "Error, no hay parametros" >&2
 	exit 1
 fi
 

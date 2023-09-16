@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Introduzca un numero"
 read var1
 echo "Introduzca otro"

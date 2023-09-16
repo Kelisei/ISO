@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -ne 3 ]; then
-    echo "El script necesita exactamente 2 parámetros."
+    echo "El script necesita exactamente 2 parámetros." >&2
     exit 1
 fi
 

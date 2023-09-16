@@ -1,5 +1,6 @@
+#!/bin/bash
 if [ $# -ne 3 ]; then
-    echo "Faltaron argumentos pa"
+    echo "Faltaron argumentos pa" >&2
     exit 1
 fi
 

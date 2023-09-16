@@ -1,3 +1,4 @@
+#!/bin/bash
 while true; do
   clear  # Limpia la pantalla
   echo "Menú:"
