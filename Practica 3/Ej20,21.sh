@@ -13,7 +13,6 @@ queue=()
 pop() {
     if [ $length -gt 0 ]; then
         length=$((length - 1))
-        #echo "Nuevo tamaño $length"
         local ret_value=${queue[length]}
         unset 'queue[length]'
         queue=("${queue[@]}")
@@ -40,16 +39,18 @@ length(){
     echo $length
 }
 
-
+push hola
+push como
+push cuando
+push donde
+push porque
+push goku
 push 32
 push 23
-push goku
+push 420
+push 69
 pop 
 pop
 pop
-pop
-print
-push 42
-push zapallo
-print
 length
+print
