@@ -1,26 +1,21 @@
-if [ $# -ne 3 ]
-then
+if [ $# -ne 3 ]; then
     echo "Faltaron argumentos pa"
     exit 1
 fi
 
-if [ -e $1 ]
-then
-    if [ -d $1 ]
-    then
-        for file in $1/*
-        do
-	    echo $file
-            if [ $2 = "-a" ]
-            then
+if [ -e $1 ]; then
+    if [ -d $1 ]; then
+        if [ $2 = "-a" ]; then
+            for file in $1/*; do
                 mv $file  $file$3
-            elif [ $2 = "-b" ]
-            then
-                mv $file $3$file
-            else
-                echo "No es una opcion"
-            fi
-        done
+            done
+        elif [ $2 = "-b" ]; then
+            for file in $1/*; do
+                mv $file $3$file         
+            done     
+        else
+           echo "No es una opcion"
+        fi
     else
         echo "No es un directorio"
     fi
