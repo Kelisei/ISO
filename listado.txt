@@ -1,38 +1,17 @@
-Usuario: root | Cantidad: 0
-Usuario: daemon | Cantidad: 0
-Usuario: bin | Cantidad: 0
-Usuario: sys | Cantidad: 0
-Usuario: sync | Cantidad: 0
-Usuario: games | Cantidad: 0
-Usuario: man | Cantidad: 0
-Usuario: lp | Cantidad: 0
-Usuario: mail | Cantidad: 0
-Usuario: news | Cantidad: 0
-Usuario: uucp | Cantidad: 0
-Usuario: proxy | Cantidad: 0
-Usuario: www-data | Cantidad: 0
-Usuario: backup | Cantidad: 0
-Usuario: list | Cantidad: 0
-Usuario: irc | Cantidad: 0
-Usuario: _apt | Cantidad: 0
-Usuario: nobody | Cantidad: 0
-Usuario: systemd-network | Cantidad: 0
-Usuario: tss | Cantidad: 0
-Usuario: systemd-timesync | Cantidad: 0
-Usuario: messagebus | Cantidad: 0
-Usuario: usbmux | Cantidad: 0
-Usuario: dnsmasq | Cantidad: 0
-Usuario: avahi | Cantidad: 0
-Usuario: speech-dispatcher | Cantidad: 0
-Usuario: fwupd-refresh | Cantidad: 0
-Usuario: saned | Cantidad: 0
-Usuario: geoclue | Cantidad: 0
-Usuario: polkitd | Cantidad: 0
-Usuario: rtkit | Cantidad: 0
-Usuario: colord | Cantidad: 0
-Usuario: gnome-initial-setup | Cantidad: 0
-Usuario: Debian-gdm | Cantidad: 0
-Usuario: kelisei | Cantidad: 93
-Usuario: systemd-coredump | Cantidad: 0
-Usuario: sddm | Cantidad: 0
-Usuario: lightdm | Cantidad: 0
+
+Usuario: root | Cantidad .sh: 0
+Usuario: daemon | Cantidad .sh: 0
+Usuario: bin | Cantidad .sh: 0
+Usuario: sys | Cantidad .sh: 0
+Usuario: sync | Cantidad .sh: 0
+Usuario: games | Cantidad .sh: 0
+Usuario: man | Cantidad .sh: 0
+Usuario: lp | Cantidad .sh: 0
+Usuario: mail | Cantidad .sh: 0
+Usuario: news | Cantidad .sh: 0
+Usuario: uucp | Cantidad .sh: 0
+Usuario: proxy | Cantidad .sh: 0
+Usuario: www-data | Cantidad .sh: 0
+Usuario: backup | Cantidad .sh: 0
+Usuario: list | Cantidad .sh: 0
+Usuario: irc | Cantidad .sh: 0
