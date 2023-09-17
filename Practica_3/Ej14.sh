@@ -7,12 +7,12 @@ fi
 if [ -e $1 ]; then
     if [ -d $1 ]; then
         if [ $2 = "-a" ]; then
-            for file in $1/*; do
-                mv $file  $file$3
+            for file in $(ls $1); do
+                mv $1$file  $1$file$3
             done
         elif [ $2 = "-b" ]; then
-            for file in $1/*; do
-                mv $file $3$file         
+            for file in $(ls $1); do
+                mv $1$file $1$3$file        
             done     
         else
            echo "No es una opcion"
