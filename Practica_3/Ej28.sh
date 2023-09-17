@@ -19,7 +19,7 @@ else
     counter=0
     for file in $(ls -l $1); do
         if [ -f $1/$file ]; then
-            if [ -w $1/$file ] && [ -r $1/$file ]; then
+            if [ -w $1/$file -a -r $1/$file ]; then
                 counter=$((counter + 1))
             fi
         fi
