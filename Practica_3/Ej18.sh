@@ -9,8 +9,7 @@ if ! [ $# -eq 1 ]; then
     exit 1
 fi
 while true; do 
-    expr $(who | grep -w $1 | wc -l) > 0
-    if [ $? -eq 0 ]; then
+    if [ $(who | grep -w $1 | wc -l) -gt 0 ]; then
         break
     fi
     echo "No encontrado, esperando 10 segundos"
