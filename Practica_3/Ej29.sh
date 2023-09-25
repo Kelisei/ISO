@@ -17,6 +17,9 @@ validar que el archivo exista en el arreglo. En caso de no existir, imprime el m
 de error “Archivo no encontrado” y devuelve como valor de retorno 10
 29
 
+
+# goku
+
 array=($(find /home -name "*.doc"))
 verArchivo() {
     encontrado="no"
