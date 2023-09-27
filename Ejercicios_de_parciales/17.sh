@@ -2,7 +2,7 @@
 
 if [ $# -ne 1 ]; then
 	echo "Se requiere exactamente un parametro" >&2
-	exit 1
+	exit 2
 fi
 
 exists=$(getent passwd | grep $1 | wc -l)
